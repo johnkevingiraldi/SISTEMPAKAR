@@ -7,6 +7,12 @@ Created on Wed Apr  7 20:31:27 2021
 
 Pengumpulan tugas mengenai materi NaiveBayesClassifier atas nama John Kevin Giraldi (1184049)
 
+Data tersebut merupakan kumpulan dari URL situs web untuk 11000+ situs web. Menggunakan algoritma NaiveBayesClassifier untuk mengidentifikasi sebagai situs web phishing atau bukan.
+Untuk pemrosesan data digunakan label class
+Nilai 1 merepresentasikan web Phishing
+Nilai -1 merepresentasikan web bukan Phishing
+Hasil perhitungannya memunculkan klasifikasi biner yang ditandai dengan angka (1 atau -1).
+
 #Untuk membaca file csv
 d = pandas.read_csv("phishing.csv", sep = ',')
 
